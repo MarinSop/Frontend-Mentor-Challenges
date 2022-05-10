@@ -1,0 +1,85 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: "Epilogue";
+    src: url(fonts/Epilogue-Regular.ttf);
+}
+
+body
+{
+    font-family: Epilogue;
+}
+nav 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation > ul
+{
+    list-style: none;
+}
+.navigation > ul > li
+{
+    display: inline;
+    color: hsl(0, 0%, 41%);
+    font-size: small;
+}
+
+.log-reg
+{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.log-reg > ul
+{
+    list-style: none;
+}
+.log-reg > ul > li 
+{
+    display:inline;
+    padding: 5px 10px 5px 10px;
+    color: hsl(0, 0%, 41%);
+    font-size: small;
+}
+#regButton
+{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 41%);
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.leftMain
+{
+    width: 50%;
+    margin-left: 100px;
+}
+.headers > h1
+{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.rightMain
+{
+    width: 50%;
+}
+.rightMain > img
+{
+    height: 500px;
+    
+}
