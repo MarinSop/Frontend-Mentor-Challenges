@@ -4,9 +4,10 @@
     font-family: "Epilogue";
     src: url(fonts/Epilogue-Regular.ttf);
 }
-
 body
 {
+    height: 100%;
+    width: 100%;
     font-family: Epilogue;
 }
 nav 
@@ -16,6 +17,17 @@ nav
     width: 100%;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo
+{
+    margin-left: 20px;
+}
+.logo > img
+{
+    height: auto;
+    width: 60px;
 }
 
 .navigation > ul
@@ -27,6 +39,7 @@ nav
     display: inline;
     color: hsl(0, 0%, 41%);
     font-size: small;
+    margin-right: 20px;
 }
 
 .log-reg
@@ -64,22 +77,54 @@ main
 .leftMain
 {
     width: 50%;
-    margin-left: 100px;
 }
+.leftMainContent
+{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:35%;
+    height: 100%;
+}
+.leftMainContent > button
+{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.leftMainContent > p
+{
+    line-height: 1.4;
+    color: hsl(0, 0%, 41%);
+    margin: 20px 0px 20px 0px;
+}
+.clients
+{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.clients > img{margin-right:20px;}
+.headers{margin-top: 30px ;margin-bottom: 10px;}
 .headers > h1
 {
     font-size: 4rem;
     font-weight: 900;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
+    color:hsl(0, 0%, 8%);
 }
 
 .rightMain
 {
     width: 50%;
+    height: 100%;
 }
 .rightMain > img
 {
-    height: 500px;
-    
+   height: 500px;
+   margin-left: 15%;
 }
