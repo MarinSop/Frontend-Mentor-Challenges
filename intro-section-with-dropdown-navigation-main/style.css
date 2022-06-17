@@ -4,6 +4,7 @@
     font-family: "Epilogue";
     src: url(fonts/Epilogue-Regular.ttf);
 }
+html{height: 100%;}
 body
 {
     height: 100%;
@@ -77,6 +78,8 @@ main
 .leftMain
 {
     width: 50%;
+    display: flex;
+    height: 100%;
 }
 .leftMainContent
 {
